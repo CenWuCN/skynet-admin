@@ -1,0 +1,6 @@
+[submodule "packages/skynet"]
+	path = packages/skynet
+	url = https://github.com/cloudwu/skynet
+[submodule "packages/lua-cjson"]
+	path = packages/lua-cjson
+	url = https://github.com/mpx/lua-cjson/
