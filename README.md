@@ -4,12 +4,18 @@
 
 ## 运行
 
-需要编译 cjson 库（[kyne cjson](https://github.com/mpx/lua-cjson/)）并且把 cjson.so 复制到 skynet/luaclib 下
-
-把 web-server 复制到 skynet 文件夹下，执行命令
-
 ```bash
-./skynet ./web-server/config
+git clone https://github.com/CenWuCN/skynet-admin
+cd skynet-admin
+git submodule init
+git submodule update
+cd packages/skynet
+make linux
+cd ../lua-cjson
+make
+cp cjson.so ../skynet/luaclib
+cd ../skynet
+./skynet ../../web-server/config
 ```
 
 即可启动服务端
