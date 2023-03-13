@@ -2,6 +2,8 @@
 
 该 demo 需要配合 web 端（[skynet-admin-web](https://github.com/CenWuCN/skynet-admin-web)）使用
 
+skynet-admin 和 skynet-admin-web 打包好的 docker 镜像 [skynet-admin-docker](https://github.com/CenWuCN/skynet-admin-docker)
+
 ## 运行
 
 ```bash
